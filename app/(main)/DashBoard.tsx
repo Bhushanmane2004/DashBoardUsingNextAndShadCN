@@ -9,7 +9,7 @@ import { TotalVisitor } from "@/components/Total-visiot";
 import { PieCharts } from "@/components/Pie-chart";
 export default function DashBooard() {
   const [selectedMenu, setSelectedMenu] = useState("Home");
-
+  console.log(selectedMenu);
   return (
     <div className="flex w-full h-screen">
       <div>

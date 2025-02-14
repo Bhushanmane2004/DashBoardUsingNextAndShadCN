@@ -1,7 +1,6 @@
 "use client"; // Ensure this line is present at the top
 
 import { Calendar, Home, Inbox, Search, Settings } from "lucide-react";
-import { motion } from "framer-motion";
 import {
   Sidebar,
   SidebarContent,
@@ -12,13 +11,6 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-import DarkMode from "@/components/dark-mode";
-import { Chart } from "@/components/Bar-chart";
-import { TopChart } from "@/components/TopChart";
-import { TotalVisitor } from "@/components/Total-visiot";
-import { PieCharts } from "@/components/Pie-chart";
-import { useState } from "react";
 
 // Menu items
 const items = [
