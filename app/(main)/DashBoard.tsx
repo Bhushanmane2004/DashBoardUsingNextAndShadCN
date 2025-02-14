@@ -3,7 +3,7 @@ import { AppSidebar } from "@/components/app-sidebar";
 import DarkMode from "@/components/dark-mode";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import React, { useState } from "react";
-// import { Chart } from "@/components/Bar-chart";
+import { Chart } from "@/components/Bar-chart";
 import { TopChart } from "@/components/TopChart";
 import { TotalVisitor } from "@/components/Total-visiot";
 import { PieCharts } from "@/components/Pie-chart";
@@ -30,7 +30,7 @@ export default function DashBooard() {
 
             <div className="grid auto-rows-min gap-4 md:grid-cols-3">
               <div className="aspect-video rounded-xl bg-muted/50">
-                {/* <Chart /> */}
+                <Chart />
               </div>
               <div className="aspect-video rounded-xl bg-muted/50">
                 <TotalVisitor />
